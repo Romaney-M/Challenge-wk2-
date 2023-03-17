@@ -1,17 +1,46 @@
 *{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.page-top {
-font-style: italic;
-color: aquamarine;
-display: flex;
-justify-content: space-between;
+header{
+  display: flex;
+  justify-content: flex-end;
 }
 
-.page-top h4{
-  color: cadetblue;
-  font-size: medium;
-  flex-direction: row;
-  justify-content: flex-end;
+.bg{
+  width: 785px;
+  height: 90px;
+}
+.im{
+  width: 90px;
+  height: 90px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 24px, 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: cursive;
+}
+.btn:hover {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+.AboutMe{ color: rebeccapurple;}
+.Work{ color: rebeccapurple;}
+.Contact{ color: rebeccapurple;}
+.Resume{ color: rebeccapurple;}
+
+top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+info{
+  display: flex;
+  justify-content: space-evenly;
 }
